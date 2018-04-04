@@ -1,7 +1,7 @@
 # MyFirstABP
 第一个 ABP项目，利用abp实现了人员的查询和显示，并使用丝袜哥Swagger生成接口列表。
 
-本代码为《基于DDD的ABP开发框架初探》（https://www.cnblogs.com/Leo_wl/p/5503992.html），其中存在一些问题而无法编译运行。本代码修正了其中的问题，并简单增加了扩展。
+本代码为《基于DDD的ABP开发框架初探》（https://www.cnblogs.com/Leo_wl/p/5503992.html） ，其中存在一些问题而无法编译运行。本代码修正了其中的问题，并简单增加了扩展。
 从http://www.aspnetboilerplate.com 下载模板后，建议使用vs2017进行nuget包还原和后续开发，使用其他vs版本可能存在这样那样的问题。
 
 
@@ -42,7 +42,7 @@ Joye.NET	   25
 
 3、在前台中列表展示人员数据。
 
-4、利用丝袜哥Swagger生成接口列表，nuget引用Swashbuckle，参考文章为http://www.cnblogs.com/wer-ltm/p/5776024.html#autoid-0-4-0，说明：
+4、利用丝袜哥Swagger生成接口列表，nuget引用Swashbuckle，参考文章为http://www.cnblogs.com/wer-ltm/p/5776024.html#autoid-0-4-0 ，说明：
 
 （1）、 EnableSwaggerUi中InjectJavaScript的是translator.js， 要将translator 属性设置为嵌入式资源，而不是swagger.js。设置swagger.js为嵌入式资源是无法显示中文的。
 
