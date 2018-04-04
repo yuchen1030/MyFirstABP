@@ -4,6 +4,16 @@
 本代码为《基于DDD的ABP开发框架初探》（https://www.cnblogs.com/Leo_wl/p/5503992.html） ，其中存在一些问题而无法编译运行。本代码修正了其中的问题，并简单增加了扩展。
 从http://www.aspnetboilerplate.com 下载模板后，建议使用vs2017进行nuget包还原和后续开发，使用其他vs版本可能存在这样那样的问题。
 
+使用步骤：
+
+1、用vs2017打开项目，将FirstABP.Web设为启动项目； 
+
+2、点击“生成”菜单下的"重新生成解决方案"；
+
+3、在程序包控制台中，项目选择 FirstABP.EntityFramework， 输入命令   update-database ；
+
+4、运行查询结果。
+
 
 界面效果如下：
 
