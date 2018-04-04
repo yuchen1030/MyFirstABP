@@ -1,0 +1,873 @@
+DEBUG 2018-04-04 13:19:34,484 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 13:19:34,501 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-04-04 13:19:34,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:34,512 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-04-04 13:19:34,802 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:19:36,680 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 13:19:36,702 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 13:19:36,704 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 13:19:36,733 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 13:19:36,871 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2018-04-04 13:19:44,216 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 13:19:44,245 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 13:43:55,764 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 13:43:55,788 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-04-04 13:43:55,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:55,798 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-04-04 13:43:56,079 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:43:58,020 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 13:43:58,040 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 13:43:58,042 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 13:43:58,067 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 13:43:58,200 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 13:43:58,223 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+DEBUG 2018-04-04 13:47:45,894 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 13:47:45,911 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-04-04 13:47:45,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:45,921 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-04-04 13:47:46,194 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:47:47,737 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 13:47:47,756 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 13:47:47,758 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 13:47:47,762 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 13:47:47,888 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 13:47:47,908 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+DEBUG 2018-04-04 13:53:19,983 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 13:53:20,001 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 13:53:20,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:20,017 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 13:53:20,280 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 13:53:21,812 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 13:53:21,830 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 13:53:21,831 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 13:53:21,835 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 13:53:21,959 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 13:53:22,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 13:53:22,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 13:53:22,204 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+DEBUG 2018-04-04 14:03:00,649 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:03:00,667 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:03:00,671 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:00,677 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:03:00,934 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:03:02,462 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:03:02,479 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:03:02,480 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:03:02,484 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:03:02,603 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:03:02,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:03:02,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:03:02,819 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+ERROR 2018-04-04 14:03:23,576 [6    ] FirstABP.Web.Controllers.HomeController  - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ASP._Page_Views_Home_Index_cshtml.Execute() 位置 f:\ABP\FirstABP\FirstABP.Web\Views\Home\Index.cshtml:行号 41
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-04-04 14:04:08,185 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:04:08,202 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:04:08,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:08,212 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:04:08,510 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:04:09,999 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:04:10,017 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:04:10,019 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:04:10,023 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:04:10,155 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:04:10,202 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:04:10,202 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:04:10,396 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:04:24,849 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:04:24,898 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 14:10:27,838 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:10:27,855 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:10:27,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:27,865 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:10:28,131 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:10:29,659 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:10:29,679 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:10:29,681 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:10:29,685 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:10:29,825 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:10:29,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:10:29,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:10:30,046 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:10:39,385 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:10:39,414 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 14:11:34,506 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:11:34,522 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:11:34,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:34,532 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:11:34,816 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:11:36,359 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:11:36,379 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:11:36,380 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:11:36,385 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:11:36,507 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:11:36,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:11:36,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:11:36,722 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:11:45,859 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:11:45,891 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 14:27:06,921 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:27:06,947 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:27:06,951 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:06,957 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:27:07,252 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:27:09,239 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:27:09,259 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:27:09,260 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:27:09,341 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:27:09,505 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:27:09,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:27:09,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:27:09,742 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:27:19,676 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:27:19,707 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 14:35:05,920 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:35:05,940 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:35:05,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:05,950 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:35:06,218 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:35:07,809 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:35:07,827 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:35:07,828 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:35:07,833 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:35:07,955 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:35:08,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:35:08,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:35:08,170 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:35:17,444 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:35:17,493 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 14:37:16,672 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:37:16,689 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:37:16,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:16,699 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:37:16,996 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:37:18,737 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:37:18,754 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:37:18,756 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:37:18,760 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:37:18,895 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:37:18,941 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:37:18,941 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:37:19,115 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:37:28,883 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:37:28,912 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 14:46:38,583 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:46:38,601 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:46:38,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:38,611 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:46:38,870 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:46:40,544 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:46:40,563 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:46:40,564 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:46:40,567 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:46:40,696 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:46:40,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:46:40,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:46:40,911 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:46:51,991 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:46:52,025 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 14:51:21,683 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:51:21,699 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:51:21,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:21,710 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:51:21,996 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:51:23,825 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:51:23,843 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:51:23,844 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:51:23,850 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:51:23,981 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:51:24,026 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:51:24,026 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:51:24,193 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:51:33,553 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:51:33,579 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 14:52:35,283 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:52:35,305 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:52:35,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,314 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:35,317 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:52:35,614 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:52:37,127 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:52:37,159 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:52:37,160 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:52:37,165 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:52:37,317 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:52:37,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:52:37,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:52:37,551 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:52:46,755 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:52:46,784 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:53:23,285 [5    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-04 14:53:23,285 [5    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:61814/api/services/app/personService/GetPersons
+DEBUG 2018-04-04 14:58:32,877 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 14:58:32,894 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 14:58:32,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:32,904 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 14:58:33,184 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 14:58:34,814 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 14:58:34,833 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 14:58:34,834 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 14:58:34,839 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 14:58:34,968 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 14:58:35,013 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 14:58:35,014 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 14:58:35,185 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 14:58:44,638 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 14:58:44,670 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:00:32,767 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:00:32,787 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:00:32,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:32,799 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:00:33,085 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:00:34,650 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:00:34,677 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:00:34,678 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:00:34,682 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:00:34,803 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:00:34,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:00:34,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:00:35,015 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:00:44,546 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:00:44,593 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:02:03,883 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:02:03,902 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:02:03,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:03,912 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:02:04,192 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:02:05,764 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:02:05,782 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:02:05,783 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:02:05,787 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:02:05,914 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:02:05,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:02:05,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:02:06,126 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:02:15,395 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:02:15,432 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:10:57,185 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:10:57,228 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:10:57,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:57,239 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:10:57,560 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:10:59,270 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:10:59,300 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:10:59,302 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:10:59,323 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:10:59,479 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:10:59,526 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:10:59,526 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:10:59,717 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:11:09,184 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:11:09,216 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:13:38,190 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:13:38,215 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:13:38,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:38,225 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:13:38,536 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:13:40,433 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:13:40,452 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:13:40,453 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:13:40,465 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:13:40,598 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:13:40,647 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:13:40,647 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:13:40,858 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:13:50,577 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:13:50,608 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:15:24,812 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:15:25,218 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:15:25,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:25,229 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:15:25,930 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:15:39,043 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:15:39,073 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:15:39,074 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:15:39,079 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:15:39,482 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:15:39,617 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:15:39,617 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:15:39,795 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:15:44,896 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:15:44,925 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:20:07,410 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:20:07,797 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:20:07,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:07,807 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:20:08,511 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:20:12,408 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:20:12,451 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:20:12,452 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:20:12,457 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:20:12,854 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:20:12,981 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:20:12,981 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:20:13,148 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:20:23,232 [6    ] naries.DictionaryBasedLocalizationSource - Can not find '查看接口' in localization source 'FirstABP'!
+WARN  2018-04-04 15:20:24,886 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:20:24,917 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:23:24,665 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:23:24,682 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:23:24,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:24,694 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:23:25,155 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:23:41,389 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:23:41,409 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:23:41,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:23:41,415 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:23:41,544 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:23:41,588 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:23:41,588 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:23:41,769 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:23:47,098 [6    ] naries.DictionaryBasedLocalizationSource - Can not find '查看接口' in localization source 'FirstABP'!
+WARN  2018-04-04 15:23:51,164 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:23:51,194 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:31:25,323 [23   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-04-04 15:31:25,324 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:31:25,325 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:31:25,325 [23   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-04-04 15:32:20,610 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:32:20,626 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:32:20,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:20,636 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:32:20,928 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:32:22,571 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:32:22,591 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:32:22,592 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:32:22,596 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:32:22,719 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:32:22,761 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:32:22,761 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:32:22,930 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:32:28,515 [8    ] naries.DictionaryBasedLocalizationSource - Can not find '查看接口' in localization source 'FirstABP'!
+WARN  2018-04-04 15:32:32,865 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:32:32,909 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:35:00,564 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:35:00,581 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:35:00,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:00,591 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:35:00,862 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:35:02,424 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:35:02,442 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:35:02,444 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:35:02,447 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:35:02,571 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:35:02,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:35:02,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:35:02,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:35:08,163 [8    ] naries.DictionaryBasedLocalizationSource - Can not find '查看接口' in localization source 'FirstABP'!
+WARN  2018-04-04 15:35:12,083 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:35:12,114 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:36:41,496 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:36:41,513 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:36:41,517 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:41,523 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:36:41,797 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:36:43,420 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:36:43,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:36:43,440 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:36:43,445 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:36:43,570 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:36:43,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:36:43,613 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:36:43,780 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:36:49,130 [7    ] naries.DictionaryBasedLocalizationSource - Can not find '查看接口' in localization source 'FirstABP'!
+WARN  2018-04-04 15:36:53,075 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:36:53,101 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:39:50,251 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:39:50,731 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:39:50,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:50,742 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:39:51,499 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:39:51,854 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:39:51,903 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:39:51,904 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:39:51,908 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:39:52,452 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:39:52,635 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:39:52,635 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:39:52,831 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:39:56,032 [6    ] naries.DictionaryBasedLocalizationSource - Can not find '查看接口' in localization source 'FirstABP'!
+DEBUG 2018-04-04 15:40:41,392 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:40:41,871 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:40:41,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:41,882 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:40:42,637 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:40:42,956 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:40:42,993 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:40:42,994 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:40:42,998 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:40:43,389 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:40:43,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:40:43,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:40:43,733 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:40:55,269 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:40:55,301 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:43:46,979 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:43:47,648 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:43:47,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:47,660 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:43:48,735 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:43:49,170 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:43:49,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:43:49,202 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:43:49,225 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:43:49,720 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:43:49,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:43:49,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:43:50,066 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:44:04,281 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:44:04,316 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:45:30,982 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:45:31,435 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:45:31,439 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:31,445 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:45:32,228 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:45:32,604 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:45:32,633 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:45:32,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:45:32,639 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:45:33,037 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:45:33,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:45:33,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:45:33,343 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:45:44,856 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:45:44,891 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:46:45,342 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:46:45,769 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:46:45,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:45,780 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:46:46,478 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:46:46,822 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:46:46,853 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:46:46,854 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:46:46,859 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:46:47,249 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:46:47,390 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:46:47,390 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:46:47,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:46:59,085 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:46:59,128 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 15:49:31,663 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 15:49:31,680 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 15:49:31,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:31,690 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 15:49:31,967 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 15:49:33,952 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 15:49:33,973 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 15:49:33,974 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 15:49:33,978 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 15:49:34,101 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 15:49:34,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 15:49:34,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 15:49:34,325 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 15:49:43,845 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 15:49:43,890 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-04-04 16:03:30,825 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 16:03:30,843 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-04-04 16:03:30,847 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.Web.FirstABPWebModule, FirstABP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPDataModule, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPCoreModule, FirstABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPApplicationModule, FirstABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FirstABP.FirstABPWebApiModule, FirstABP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:30,853 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-04-04 16:03:31,125 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FirstABP.EntityFramework.FirstABPDbContext, FirstABP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 16:03:32,675 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-04 16:03:32,693 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 16:03:32,694 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 16:03:32,699 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FirstABP
+DEBUG 2018-04-04 16:03:32,827 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 16:03:32,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2018-04-04 16:03:32,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FirstABP.People.DTO.GetAllPeopleOutput
+DEBUG 2018-04-04 16:03:33,054 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FirstABP.People.IPersonService' with service name 'app/personService'.
+WARN  2018-04-04 16:03:42,909 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-04-04 16:03:42,961 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.

@@ -1,0 +1,56 @@
+﻿@model  List<FirstABP.People.DTO.PersonDto>
+@{
+    ViewBag.ActiveMenu = "Home"; //The menu item will be active for this page.
+}
+<div>
+    <h1>@L("WelcomeMessage")!</h1>
+    <p class="lead">@L("Home_ThisIsATemplate")</p>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>ASP.NET MVC</h3>
+            <p>
+                @L("Home_AspNetDescription")
+            </p>
+            <a class="btn btn-primary btn-sm" href="http://asp.net/mvc">@L("LearnMore")..</a>
+        </div>
+        <div class="col-md-4">
+            <h3>ASP.NET Boilerplate</h3>
+            <p>
+                @L("Home_AspNetBoilerplateDescription")
+            </p>
+            <a class="btn btn-primary btn-sm" href="http://aspnetboilerplate.com">@L("LearnMore")..</a>
+        </div>
+        <div class="col-md-4">
+            <h3>@L("Others")</h3>
+            <p>
+                @L("Home_OtherTools")
+            </p>
+        </div>
+    </div>
+</div>
+<br>
+<div>
+    <p> <a class="btn btn-primary btn-success"  href="/apis/index">查看接口</a> </p>
+    <h3>用户数据如下：</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Age</td>
+                    </tr>
+                }
+            }
+
+        </tbody>
+    </table>
+</div>
